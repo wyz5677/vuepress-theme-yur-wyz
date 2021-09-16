@@ -31,6 +31,12 @@ tags:
    返回符合回调函数的第一个元素的值。  
 > - `3` 数组.reduce()   
    方法接收一个函数作为累加器（accumulator），数组中的每个值（从左到右）开始缩减，最终为一个值。
+> - `4` 数组.map()   
+   把数组的每一项都按map()里的函数执行一遍 再返回新的数组。
+> - `5` 数组.join('分隔符')   
+   将数组的所有元素拼接成一个字符串,按分隔符分开。
+> - `6` 数组.sort() 
+   将数组的所有元素进行一个排序。
 
 <br/><br/><br/>
 
@@ -136,3 +142,43 @@ tags:
     }
     console.log(abc(600))
 ```
+
+<br/><br/><br/>
+
+## 4.数组.map()
+![avatar](../img/javascript/j-arrayApi/map.png)
+
+:sparkles: 例子1 对数组内的每一项进行处理(注意是需要一个新数组接受) map方法传入一个函数,函数自带三个参数,第一个参数为当前元素的值,第二个参数是当前元素的索引值,第三个参数是当前元素属于的数组对象,函数内return是必须的 return的是新数组的每一项
+
+![avatar](../img/javascript/j-arrayApi/map-1.png)
+
+:sparkles: 例子2 只返回数组中每一项的某个内容的数组集合
+
+![avatar](../img/javascript/j-arrayApi/map-2.png)
+
+<br/><br/><br/>
+
+## 5.数组.join('分隔符') 
+:sparkles: 例子1 join() 方法用于把数组中的所有元素放入一个字符串。元素是通过指定的分隔符进行分隔的。如果省略该参数，则使用逗号作为分隔符。
+
+![avatar](../img/javascript/j-arrayApi/join.png)
+
+<br/><br/><br/>
+
+## 5.数组.sort()
+:sparkles: 例子1 
+
+![avatar](../img/javascript/j-arrayApi/sort.png)
+
+:sparkles: 例子2
+``` js
+    // 數組對象方法排序: 传入数组和数组中每一对象的键名排序
+    function sortBySort(array, key) {
+        return array.sort(function (a, b) {
+            var x = a[key];
+            var y = b[key];
+            return ((x < y) ? 1 : ((x > y) ? -1 : 0));
+        });
+    }
+```
+<br/><br/><br/>
