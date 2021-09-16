@@ -15,11 +15,11 @@ meta:
 ## 留言格式
 
 ::: primaryLong
-站点名称：凉风有信
+站点名称：风的过往
 
-站点描述：责难无以成事
+站点描述：严于律己 持之以恒
 
-站点网址：https://blog.cnguu.cn/
+站点网址：https://wyz5677.github.io/vuepress-theme-yur-wyz
 
 LOGO：https://static.xmt.cn/cc50c217cbe342ce951324583f2c6139.png
 

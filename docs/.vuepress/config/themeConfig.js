@@ -4,15 +4,19 @@ module.exports = {
   lang: "zh-CN",
   logo: "/logo64.png",
   nameplate: {
-    title: "Yur",
-    width: "36px",
+    title: "wyz",
+    width: "40px",
     height: "26px"
   },
   about: true,
   menuCategories: [
     {
-      text: "编程技术",
-      link: "program"
+      text: "javascript",
+      link: "javascript"
+    },
+    {
+      text: "node.js",
+      link: "nodeJs"
     },
     {
       text: "其它",
@@ -21,7 +25,7 @@ module.exports = {
   ],
   // postCover: [],
   cdn: true,
-  beiAn: "粤 ICP 备 17075980 号 - 4",
+  beiAn: "海到尽头天作岸,山登绝顶我为峰",
   // hostname: "https://blog.cnguu.cn",
   hostname: "https://wyz5677.github.io/vuepress-theme-yur-wyz",
   reward: [
@@ -32,5 +36,9 @@ module.exports = {
   baiDu: {
     // tongJi: "",
     autoPush: true
-  }
+  },
+  // 打赏
+  reward: [
+    "/qrCode.jpg"
+  ]
 };
