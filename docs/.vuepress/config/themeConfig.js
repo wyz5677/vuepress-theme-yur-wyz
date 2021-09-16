@@ -22,7 +22,8 @@ module.exports = {
   // postCover: [],
   cdn: true,
   beiAn: "粤 ICP 备 17075980 号 - 4",
-  hostname: "https://blog.cnguu.cn",
+  // hostname: "https://blog.cnguu.cn",
+  hostname: "https://wyz5677.github.io/vuepress-theme-yur-wyz",
   reward: [
     "https://static.xmt.cn/ca717dde8ae14ea7ab3c8c74b8711414.png",
     "https://static.xmt.cn/acc7d3d02b0c4a35a3735268cbb2cce0.png"

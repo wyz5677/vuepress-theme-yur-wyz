@@ -3,7 +3,7 @@ const themeConfig = require("./config/themeConfig");
 const plugins = require("./config/plugins");
 
 module.exports = {
-  base: "/base/",
+  base: "/vuepress-theme-yur-wyz/",
   evergreen: true,
   theme: path.resolve(__dirname, "../../yur"),
   themeConfig,
