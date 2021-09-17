@@ -26,7 +26,7 @@ tags:
 
 :tropical_drink: 描述:
 > - `1` 数组.filter()   
-    创建一个新的数组，检查指定数组中符合条件的所有元素(项)组成一个新数组。
+    创建一个新的数组，检查指定数组中符合条件的所有元素(项)组成一个新数组。     场景：找到符合条件的所有项
 > - `2` 数组.find()  
    返回符合回调函数的第一个元素的值。  
 > - `3` 数组.reduce()   
@@ -35,8 +35,36 @@ tags:
    把数组的每一项都按map()里的函数执行一遍 再返回新的数组。
 > - `5` 数组.join('分隔符')   
    将数组的所有元素拼接成一个字符串,按分隔符分开。
-> - `6` 数组.sort() 
+> - `6` 数组.sort()   
    将数组的所有元素进行一个排序。
+> - `7` 数组.indexOf()   
+   方法可返回数组中某个指定的元素位置。
+> - `8` 数组.pop()   
+   方法用于删除并返回数组的最后一个元素。
+> - `9` 数组.every()   
+    用于使用指定函数检测数组中的所有元素     场景：检查每项 如果都成立就是true 否则为false。    
+> - `10` 数组.concat()   
+    将多个数组拼接成一个数组
+> - `11` 数组.splice()   
+    用于删除数组中的元素,也可以删除后添加
+> - `12` 数组.some()   
+    方法用于检测数组中的元素是否满足指定条件返回值为true或false     场景：检查每项  只要有一项满足就是true 其余不检查
+> - `13` 数组.forEach()   
+    方法用于调用数组的每个元素进行处理
+> - `14` 数组.push()   
+    往数组后面添加一个元素
+> - `15` 数组.reverse()    
+    翻转数组
+> - `16` 数组.shift()    
+    删除数组的第一个元素
+> - `17` 数组.findIndex()   
+    返回传入一个测试条件（函数）符合条件的数组第一个元素位置。
+> - `18` 数组.slice()   
+    方法可从已有的数组中返回选定的元素。
+> - `19` for of  
+    for of 循环可以用来遍历数组
+
+
 
 <br/><br/><br/>
 
@@ -165,7 +193,7 @@ tags:
 
 <br/><br/><br/>
 
-## 5.数组.sort()
+## 6.数组.sort()
 :sparkles: 例子1 
 
 ![avatar](../img/javascript/j-arrayApi/sort.png)
@@ -181,4 +209,130 @@ tags:
         });
     }
 ```
+<br/><br/><br/>
+
+## 7.数组.indexOf()
+![avatar](../img/javascript/j-arrayApi/indexOf-1.png)
+<br/><br/>
+:sparkles: 例子1
+
+![avatar](../img/javascript/j-arrayApi/indexOf-2.png)
+
+<br/><br/><br/>
+
+## 8.数组.pop()
+:sparkles: 例子1
+
+![avatar](../img/javascript/j-arrayApi/pop-1.png)
+
+:sparkles: 例子2
+
+![avatar](../img/javascript/j-arrayApi/pop-2.png)
+
+<br/><br/><br/>
+
+## 9.数组.every()
+![avatar](../img/javascript/j-arrayApi/every-1.png)
+
+<br/><br/><br/>
+
+## 10.数组.concat()
+![avatar](../img/javascript/j-arrayApi/concat-1.png)
+
+:sparkles: 例子1
+
+![avatar](../img/javascript/j-arrayApi/concat-2.png)
+
+:sparkles: 例子2
+
+![avatar](../img/javascript/j-arrayApi/concat-3.png)
+
+<br/><br/><br/>
+
+## 11.数组.splice()
+![avatar](../img/javascript/j-arrayApi/splice-1.png)
+
+:sparkles: 例子1
+
+![avatar](../img/javascript/j-arrayApi/splice-2.png)
+
+<br/><br/><br/>
+
+## 12.数组.some()
+![avatar](../img/javascript/j-arrayApi/some.png)
+
+<br/><br/><br/>
+
+## 13.数组.forEach()
+![avatar](../img/javascript/j-arrayApi/forEach.png)
+
+<br/><br/><br/>
+
+## 14.数组.push()
+![avatar](../img/javascript/j-arrayApi/push-1.png)
+
+:sparkles: 例子1
+
+![avatar](../img/javascript/j-arrayApi/push-2.png)
+
+<br/><br/><br/>
+
+## 15.数组.reverse()
+![avatar](../img/javascript/j-arrayApi/reverse.png)
+
+<br/><br/><br/>
+
+## 16.数组.shift()
+![avatar](../img/javascript/j-arrayApi/shift-1.png)
+
+:sparkles: 例子1
+
+![avatar](../img/javascript/j-arrayApi/shift-2.png)
+
+<br/><br/><br/>
+
+## 17.数组.findIndex()
+![avatar](../img/javascript/j-arrayApi/findIndex.png)
+
+<br/><br/><br/>
+
+## 18.数组.slice()
+![avatar](../img/javascript/j-arrayApi/slice-1.png)
+
+:sparkles: 例子1
+
+![avatar](../img/javascript/j-arrayApi/slice-2.png)
+
+:sparkles: 例子2
+
+![avatar](../img/javascript/j-arrayApi/slice-3.png)
+
+:sparkles: 例子3
+``` js
+    // 取最后一个元素
+    this.shopRankTab.slice(-1)[0]
+```
+<br/><br/><br/>
+
+
+## 19.for of
+:sparkles: 例子1
+``` js
+    // 打印 1 2 3 4 5 
+    let arr = [1,2,3,4,5]
+    for(let item of arr) {
+        console.log(item);
+    }
+```
+
+:sparkles: 例子2
+``` js
+    // entries()方法可以返回数组的迭代对象 包含数组的键值对
+    // 打印01 12 23 34 45
+    let arr = [1,2,3,4,5]
+    for (let [index,item] of arr.entries()){
+        console.log(index,item)
+    }
+```
+
 <br/><br/><br/>
