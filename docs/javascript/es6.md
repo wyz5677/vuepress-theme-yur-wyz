@@ -194,7 +194,7 @@ Promise，简单说就是一个容器，里面保存着某个未来才会结束�
     })
 
 
-    // vue中实际应用
+    // vue中实际应用1
     const PAY_MENTS = {
         "cn":["CNY_WEIXIN","CNY_ALIPAY","CNY_CHINAPAY","BTC","ETH","USDT","LTC"],
     }
@@ -211,6 +211,16 @@ Promise，简单说就是一个容器，里面保存着某个未来才会结束�
         })
     // 拿到所有promise执行完后的结果
     let result = await Promise.all(promises)
+
+    // vue中实际应用2
+    _initElec(){
+      let fetchArr = this.elecTypeArr.map((item)=>{
+        return this.getBuyContract({elec_buy_days:item.day})
+      })
+      Promise.all(fetchArr).then((res)=>{
+        console.log(res,'res');
+      })
+    },
 ```
 
 <br/><br/>
