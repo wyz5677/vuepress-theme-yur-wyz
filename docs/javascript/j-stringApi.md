@@ -41,6 +41,8 @@ tags:
     提取字符串的某个部分
 > - `8` 字符串.startsWith()   
     startsWith() 方法用于检测字符串是否以指定的前缀开始
+> - `9` 字符串.padStart()   
+    padStart() 返回新的字符串，表示用参数字符串从头部（左侧）补全原字符串。
 
 
 
@@ -97,6 +99,18 @@ tags:
 :sparkles: 例子1   
 
 ![avatar](../img/javascript/j-stringApi/startsWith.png)
+
+<br/><br/><br/>
+
+## 9.字符串.padStart() 
+![avatar](../img/javascript/j-stringApi/padStart.png)
+<br/><br/>
+:sparkles: 例子1   
+``` js
+  <!-- 字符串前补0 -->
+  const num = (1+ '').padStart(2,0)
+  <!-- '01' -->
+```
 
 <br/><br/><br/>
 
