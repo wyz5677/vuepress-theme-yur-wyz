@@ -55,6 +55,12 @@ module.exports = {
     'https://cdn.jsdelivr.net/gh/cnguu/pic@master/20171231/banners/d4650c2a40868b84eda513bca9d13513.jpg',
     'https://cdn.jsdelivr.net/gh/cnguu/pic@master/20171231/banners/eb92164f38952ef26315499f112b963a.jpg',
     '/bg1.jpg',
-    '/bg2.jpg'
+    '/bg2.jpg',
+    '/bg3.jpg',
+    '/bg4.jpg',
+    '/bg5.jpg',
+    '/bg6.jpg',
+    '/bg7.jpg',
+    '/bg8.jpg',
   ]
 };
