@@ -19,6 +19,10 @@ module.exports = {
       link: "nodeJs"
     },
     {
+      text: "vue",
+      link: "vue"
+    },
+    {
       text: "其它",
       link: "other"
     }
