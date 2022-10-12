@@ -41,7 +41,8 @@ export default {
   data() {
     return {
       banner:
-        "https://cdn.jsdelivr.net/gh/cnguu/pic@master/20171231/banners/6f6ca5b0cb3bc43e5895911cc40a343d.jpg",
+        // "https://cdn.jsdelivr.net/gh/cnguu/pic@master/20171231/banners/6f6ca5b0cb3bc43e5895911cc40a343d.jpg",
+        "/bg.jpg",
       loading: false,
       disabled: false
     };
