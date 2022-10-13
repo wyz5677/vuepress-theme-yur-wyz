@@ -9,7 +9,8 @@
         :xl="{ span: 12, offset: 6 }"
         :xxl="{ span: 14, offset: 5 }"
       >
-        <img :src="banner" :alt="$l('title')" />
+        <!-- <img :src="banner" :alt="$l('title')" /> -->
+        <img src="../../docs/.vuepress/public/bg.jpg" :alt="$l('title')" />
       </a-col>
       <a-col
         :xs="{ span: 24, offset: 0 }"
