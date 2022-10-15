@@ -161,10 +161,10 @@
               <template slot="content">
                 Designed&nbsp;by
                 <a
-                  href="https://github.com/cnguu/vuepress-theme-yur"
+                  href="https://github.com/wyz5677/vuepress-theme-yur-wyz"
                   target="_blank"
                 >
-                  cnguu
+                  wyz
                 </a>
               </template>
               &copy;&nbsp;2019-{{ new Date().getFullYear() }}&nbsp;

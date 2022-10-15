@@ -17,7 +17,7 @@ export default ({ Vue, options, router, siteData }) => {
 
 if (process.env.NODE_ENV === "production" && typeof window !== "undefined") {
   console.log(
-    "\n%c(づ￣ ³￣)づヾ Author：cnguu%c VuePress Theme - Yur \n",
+    "\n%c(づ￣ ³￣)づヾ Author：wyz%c VuePress Theme - Yur \n",
     "color: #fadfa3; background: #030307; padding:5px;",
     "background: #fadfa3; padding:5px 0;"
   );

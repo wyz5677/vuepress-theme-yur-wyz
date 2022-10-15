@@ -16,7 +16,7 @@
     "url": "git+https://github.com/cnguu/vuepress-theme-yur.git"
   },
   "license": "MIT",
-  "author": "cnguu <www@cnguu.cn>",
+  "author": "wyz <www@wyz.cn>",
   "main": "./yur/index.js",
   "files": [
     "yur/"
